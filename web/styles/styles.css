@@ -1,0 +1,195 @@
+header
+{
+    background-color: black;
+    color: white;
+}
+
+body
+{
+    background-image: url('../images/restaurant.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1
+{
+    text-align: center;
+}
+
+h2
+{
+    text-align: center;
+}
+
+img
+{
+    width: 80vw;
+    max-width: 400px;
+}
+
+main
+{
+    color: white;
+    text-align: center;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+ul
+{
+    list-style-position: inside;
+    text-align: center;
+}
+
+ol
+{
+    text-align: left;
+}
+
+.column1
+   {
+     float:left;
+     width:32vw;
+   }
+.column2
+   {
+     float:left;
+     width:32vw;
+     text-align: center;
+   }
+.column3
+   {
+     float:left;
+     width:32vw;
+     text-align:right;
+   }
+
+   .fcolumn1
+   {
+    text-align: left;
+     float:left;
+     width:46vw;
+     padding:1vw;
+   }
+
+   .fcolumn2
+   {
+    text-align: right;
+     float:left;
+     width:46vw;
+     padding:1vw;
+   }
+
+/* Clear floats after the columns */
+.row:after 
+{
+    content: "";   
+     display: table;
+     clear:both;
+}
+
+
+/*Dropdown menu properties*/
+.dropbtn 
+{
+    background-color: black;
+    color: white;
+    padding-left: 30px;
+    font-size: 25px;
+    border: none;
+}
+
+.dropdown 
+{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    padding-left: 10px;
+    z-index: 1;
+}
+
+dropdown-content a 
+{
+    color: black;
+    padding: 1px 1px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover{background-color: white;}
+.dropdown-content a:hover{color: black;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: black;}
+.fcolumn1 a:hover{text-decoration: underline;}
+
+/*Footer properties*/
+footer 
+{
+    background-color: black;
+    color: white;
+}
+
+
+
+/* Responsive layout - makes the two fcolumns stack on top of each other
+  instead of next to each other and adjusts appropriate elements to display 
+  better on smaller displays*/
+   @media screen and (max-width:1040px) 
+   {
+    h1
+    {
+        padding-right: 8vw;
+    }
+    .fcolumn1
+    {
+        text-align: left;
+        width: 96vw;
+    }
+    .fcolumn2
+    {
+        text-align: left;
+        width: 96vw;
+    }
+  }
+  @media screen and (max-width:820px) {
+    .column1 {
+        width: 96vw;
+        text-align: left;
+        float: left;
+    }
+    .column2 {
+        width: 96vw;
+        text-align: left;
+        float: left;
+    }
+    .column3 {
+        width: 86vw;
+        text-align: left;
+        padding-left: 5vw;
+        padding-bottom: 5vw;
+        float: left;
+    }
+    .fcolumn2
+    {
+        text-align: left;
+    }
+    iframe
+    {
+        width: 320px;
+        height: 245px
+    }
+  }
+  
