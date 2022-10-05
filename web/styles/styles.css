@@ -50,6 +50,14 @@ ol
     text-align: left;
 }
 
+.staff-contact
+{
+    
+    width: 94vw;
+    min-width: 350px;
+    text-align: center;
+}
+
 .column1
    {
      float:left;
