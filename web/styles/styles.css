@@ -29,7 +29,7 @@ ol
 
 .fcolumn2
 {
-        text-align: right;
+    text-align: right;
 }
 
 /*Dropdown icon properties*/
@@ -39,27 +39,26 @@ ol
 }
 
 /*Media queries for custom responsiveness*/
-  
-  @media screen and (max-width:1000px) 
-  {
+@media screen and (max-width:1000px) 
+{
     iframe
-    {
-        width: 520px;
-        height: 390px
-    }
-  }
-  
-  @media screen and (max-width:600px) 
-  {
+        {
+            width: 520px;
+            height: 390px
+        }
+}
+
+@media screen and (max-width:600px) 
+{
     .fcolumn2
     {
         padding-top: 15px;
         text-align: left;
     }
+    
     iframe
     {
         width: 320px;
         height: 245px
     }
-  }
-  
+}
